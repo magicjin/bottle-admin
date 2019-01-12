@@ -10,7 +10,7 @@ RequestContext.
 from django.conf import settings
 from django.middleware.csrf import get_token
 from django.utils.encoding import smart_str
-from django.utils.functional import 
+from django.utils.functional import lazy
 
 def csrf(request):
     """
